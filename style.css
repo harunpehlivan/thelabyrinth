@@ -1,0 +1,37 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  user-select: none;
+}
+
+#content{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button{
+  border: none;
+  padding: 3px;
+  background-color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #dbdbdb;
+}
+
+a{
+  color: white;
+}
+
+#up,#down,#left,#right{
+  font-size: large;
+  margin-left: 3px;
+  margin-right: 3px;
+}
